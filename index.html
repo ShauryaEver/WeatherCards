@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Weather Dashboard</h1>
+        <p>Live weather, wherever you are.</p>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- City Search Section -->
+        <section class="search-section">
+
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Search a city..."
+                autocomplete="off"
+            >
+
+            <button id="searchBtn" type="button">
+                Search
+            </button>
+
+            <button id="locationBtn" type="button">
+                📍 My Location
+            </button>
+
+        </section>
+
+
+        <!-- Status and Loading Message -->
+        <p id="status" role="status" aria-live="polite">
+            Loading weather...
+        </p>
+
+
+        <!-- Weather Cards Container -->
+        <section
+            id="weatherContainer"
+            class="weather-container"
+            aria-label="Weather information"
+        >
+
+        </section>
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

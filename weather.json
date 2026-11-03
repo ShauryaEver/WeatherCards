@@ -1,0 +1,34 @@
+    [
+  {
+    "city": "Pune",
+    "temperature": 29,
+    "condition": "Sunny",
+    "humidity": 45,
+    "wind": 12,
+    "icon": "☀️"
+  },
+  {
+    "city": "Mumbai",
+    "temperature": 31,
+    "condition": "Cloudy",
+    "humidity": 70,
+    "wind": 18,
+    "icon": "☁️"
+  },
+  {
+    "city": "Delhi",
+    "temperature": 25,
+    "condition": "Rainy",
+    "humidity": 80,
+    "wind": 10,
+    "icon": "🌧️"
+  },
+  {
+    "city": "Bangalore",
+    "temperature": 26,
+    "condition": "Partly Cloudy",
+    "humidity": 55,
+    "wind": 15,
+    "icon": "🌤️"
+  }
+]
